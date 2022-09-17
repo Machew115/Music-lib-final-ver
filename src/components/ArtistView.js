@@ -4,7 +4,7 @@ import Spinner from './Spinner'
 
 const ArtistView = () => {
     const { id } = useParams()
-   //const history = useHistory()
+   
     const [ artistData, setArtistData ] = useState([])
     
     useEffect(() => {

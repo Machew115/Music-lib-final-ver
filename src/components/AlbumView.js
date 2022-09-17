@@ -4,7 +4,7 @@ import Spinner from './Spinner'
 
 const AlbumView = () => {
     const { id } = useParams()
-    //const history = useHistory()
+    
     const [ albumData, setAlbumData ] = useState([])
 
     useEffect(() => {

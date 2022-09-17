@@ -41,14 +41,10 @@ const App = () => {
           </SearchContext.Provider>
             <DataContext.Provider value={data}>
               {renderGallery()}
-            </DataContext.Provider>
+            </DataContext.Provider> 
         </Route>
-        <Route path="/album/:id">
-          <AlbumView />
-        </Route>
-        <Route path="/artist/:id">
-          <ArtistView />
-        </Route>
+        <Route path="/album/:id"><AlbumView /></Route>
+        <Route path="/artist/:id"><ArtistView /></Route>
         </Routes>
       </Router>
     </div>
